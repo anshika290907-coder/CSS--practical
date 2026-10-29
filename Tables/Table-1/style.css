@@ -1,0 +1,66 @@
+/* Page Background aur Alignment */
+body {
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Caption / Title Styling */
+#student-table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+/* Table Main Styling */
+#student-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styling (Dark Green) */
+#student-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Table Cells Padding */
+#student-table th,
+#student-table td {
+    padding: 12px 15px;
+}
+
+/* Row Borders */
+#student-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Zebra Striping (Alternate Rows) */
+#student-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Last Row Green Bottom Border */
+#student-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+/* Active Row Hover Effect */
+#student-table tbody tr:hover {
+    font-weight: bold;
+    color: #009879;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

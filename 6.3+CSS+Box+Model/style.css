@@ -1,0 +1,34 @@
+/* Base dimensions for all three boxes */
+div {
+  height: 200px;
+  width: 200px;
+}
+
+/* Remove default paragraph margins so text sits flush inside the padding */
+p {
+  margin: 0;
+}
+
+/* First Box: 200px width + 40px padding + 20px border = 260px total width */
+#first {
+  background-color: cadetblue;
+  padding: 20px;
+  border: 10px solid black;
+}
+
+/* Second Box: Shifted right by 260px to touch #first's bottom-right corner */
+#second {
+  background-color: gold;
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  margin-left: 260px;
+}
+
+/* Third Box: Shifted left to margin-left: 40px so its top-right corner touches #second's bottom-left corner */
+#third {
+  background-color: indianred;
+  border: 10px solid black;
+  margin-left: 40px;
+}

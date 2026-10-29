@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* 1. Element Selector (Red) */
+li:first-of-type {
+    color: red;
+}
+
+/* 2. Class Selector (Default / Black - no special color rule needed) */
+
+/* 3. ID Selector (Green) */
+#id-sel {
+    color: green;
+}
+
+/* 4. Attribute Selector (Blue) */
+[data-type="special"] {
+    color: blue;
+}
